@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body style="background-color: aqua;font-weight: bolder; color: blueviolet;font-style: italic;">
+        <h2>Types of flowers</h2>
+
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+     
+
+        <script>
+            var flowers=["Daisy"," Iris"," Jasmine" ," Aster"," Rose"]
+
+            //Display the array
+            document.getElementById("demo1")
+            .innerHTML="They include: " +flowers;
+            document.write("<br>")
+            //Display the array joined with "*"
+            document.getElementById("demo2")
+            .innerHTML="They include: " +flowers.join("*")
+        </script>
+    </body>
+</html>
